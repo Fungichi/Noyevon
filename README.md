@@ -27,14 +27,7 @@ This Python script checks the status of the `VeyonService` Windows service every
 - The script continuously checks the status of `VeyonService` using the `sc query` command.
 - If the service is running, it attempts to stop it using the `sc stop` command.
 - If the script is not run with administrative privileges, it automatically attempts to restart itself with elevated permissions.
-
-## Notes
-- If the service fails to stop, an error message will be displayed.
-- The script runs in an infinite loop with a 5-second delay between checks.
-
-## License
-This script is provided as-is, without any guarantees. Use at your own risk.
-
-## Author
-Your Name (Replace with your actual name)
+## Tip from the author
+I made an exe of this file using pyinstaller, and then i added this exe to the hp programmable key.
+So now i can activate the script by a single click.
 
