@@ -29,5 +29,5 @@ This Python script checks the status of the `VeyonService` Windows service every
 - If the script is not run with administrative privileges, it automatically attempts to restart itself with elevated permissions.
 ## Tip from the author
 I made an exe of this file using pyinstaller, and then i added this exe to the hp programmable key.
-So now i can activate the script by a single click.
+So now i can activate the script by a pressing a key.
 
