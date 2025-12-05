@@ -1,4 +1,4 @@
-# Noyevon (Readme AI-Generated :) )
+# Noyevon (Readme AI-Generated :) ) dag luca
 
 ## Description
 This Python script checks the status of the `VeyonService` Windows service every 5 seconds. If the service is running, the script attempts to stop it. The script requires administrator privileges to function properly.
